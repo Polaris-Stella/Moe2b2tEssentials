@@ -1,0 +1,29 @@
+name: Moe2b2tEssentials
+version: '2.0.1'
+main: moe._2b2t.essentials.Moe2b2tEssentials
+api-version: 1.13
+softdepend: [ PlaceholderAPI ]
+authors: [ Ling_Luo_Yomi, Polaris_Stella ]
+description: '2b2t.moe essentials'
+commands:
+  suicide:
+    aliases: [ 4,514,114514 ]
+  ignore:
+  toggle:
+    aliases: [ settings ]
+  help:
+  delay:
+    aliases: [ tc,dl ]
+  plugins:
+    aliases: [ pl ]
+  stats:
+    aliases: [ serverinfo,si ]
+  stat:
+    aliases: [ zt,info ]
+  moe2b2t:
+    permission: "moe2b2t.admin"
+    default: op
+  copy:
+    aliases: [ fz ]
+    permission: "moe2b2t.copy"
+    default: op

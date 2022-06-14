@@ -1,0 +1,236 @@
+###################################
+#     Moe2b2tEssentials 配置文件   #
+###################################
+#若无特别说明，默认时间单位均为秒
+#
+#如果你想在传统版本(1.12.2及以下)使用本插件
+#请将 oak_boat 改为 boat 并将 water 改为 STATIONARY_WATER
+#
+#控制台显示语言
+consoleLang: 'zh_cn'
+#玩家显示语言
+defaultPlayerValues:
+  #可用：zh_cn en_us
+  lang: 'zh_cn'
+  #显示加入退出消息
+  showJoinAndLeaveAlerts: true
+  #显示死亡消息
+  showDeathMessages: true
+  #显示公告消息
+  showBroadcastMessages: true
+#物品复制
+CopyItem:
+  #10+1
+  tenPlusOne:
+    #开关
+    enabled: true
+    #设置放置多少个潜影盒会刷出一个
+    placeTime: 10
+  #杀驴
+  killDonkey:
+    #开关
+    enabled: true
+    #刷出概率
+    probability: 0.75
+#重生设置
+SpawnPoint:
+  #默认重生世界
+  world: 'world'
+  #固定重生地点
+  x: 0.0
+  y: 100.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+  #安全模式(避免重生在奇怪的方块上方)
+  safeMode: true
+  #随机重生
+  randomRespawn:
+    #开关
+    enabled: true
+    #重生半径
+    center:
+      world: 'world'
+      x: 0.0
+      y: 100.0
+      z: 0.0
+    radius: 2000
+    #黑名单方块
+    dangerousBlocks:
+      - 'water'
+      - 'flowing_water'
+      - 'lava'
+      - 'flowing_lava'
+      - 'cactus'
+      - 'fire'
+      - 'powder_snow'
+#世界边界
+WorldBorderManager:
+  #开关
+  enabled: true
+  #无人模式
+  increaseWhenNoOne: false
+  #最大世界边界
+  maxSize: 5000000
+  #生长大小
+  growth: 15
+  #生长速度
+  increaseRate: 30
+  #生长周期
+  finishInSeconds: 30
+#服务器保护
+ServerProtection:
+  #出生点保护
+  spawnProtection:
+    #开关
+    enabled: true
+    #范围
+    radius: 32
+  #保护传送门
+  endPortalProtection: true
+  #op禁用
+  disableOP:
+    enabled: true
+    whiteList:
+      - 'Ling_Luo_Yomi'
+  #32K禁用
+  anti32K: true
+  #防止禁人书
+  antiBookBan:
+    #开关
+    enabled: true
+    #最大书本保存页数
+    maxPages: 2
+  #重生无敌时间
+  invincibleTimeAfterRespawn: 30
+#防卡服
+AntiLag:
+  #防下界门卡服
+  antiNetherPortalJam: true
+  #TNT限制
+  tntLimit:
+    #开关
+    enabled: true
+    #TNT爆炸范围
+    maxExplodingTnts: 10
+  #区块卸载器
+  chunkUnloader:
+    #开关
+    enabled: true
+    #卸载周期
+    period: 600
+#自动重启
+AutoRestart:
+  #开关
+  enabled: true
+  #重启周期
+  period: 21600
+#防刷屏
+AntiSpam:
+  #开关
+  antiFloodScreen: true
+  #聊天冷却时间
+  antiFloodScreenMinPeriod: 5
+  #防止复读
+  antiRepeat: true
+  #黑名单填充词
+  ignoredCharSeq: [ '!','！',' ','。','.' ]
+#视觉效果
+Visual:
+  #聊天彩色字体
+  chatColorEnabled: true
+  #铁砧命名彩色字体
+  anvilColorEnabled: true
+  #告示牌彩色字体
+  signColorEnabled: true
+  #聊天格式
+  chatFormat: '§f<§3%s§f> §f%s'
+  #控制台样式
+  consolePrefix:
+    #开关
+    enabled: true
+    #控制台样式格式
+    prefix: '§e[Server]'
+#新手礼包
+NewbieKit:
+  - id: 'ender_pearl'
+    amount: 16
+  - id: 'water_bucket'
+    amount: 1
+  - id: 'bread'
+    amount: 32
+  - id: 'oak_boat'
+    amount: 1
+#公告
+Broadcaster:
+  #开关
+  enabled: false
+  #显示周期
+  period: 60
+  # 文本设置在 i18n.yml 配置文件内
+#命令管理器
+CommandManager:
+  #命令替换
+  commandReplacement:
+    #开关
+    enabled: true
+    #列表
+    list:
+      - source: 'help'
+        target: 'moe2b2tessentials:help'
+      - source: '?'
+        target: 'moe2b2tessentials:help'
+      - source: 'bukkit:?'
+        target: 'moe2b2tessentials:help'
+      - source: 'bukkit:help'
+        target: 'moe2b2tessentials:help'
+      - source: 'plugins'
+        target: 'moe2b2tessentials:plugins'
+      - source: 'pl'
+        target: 'moe2b2tessentials:plugins'
+      - source: 'bukkit:pl'
+        target: 'moe2b2tessentials:plugins'
+      - source: 'bukkit:plugins'
+        target: 'moe2b2tessentials:plugins'
+      - source: 'kill'
+        target: 'moe2b2tessentials:suicide'
+      - source: 'bukkit:kill'
+        target: 'moe2b2tessentials:suicide'
+      - source: 'minecraft:kill'
+        target: 'moe2b2tessentials:suicide'
+  #命令白名单
+  commandWhitelist:
+    #开关
+    enabled: true
+    #白名单列表
+    list:
+      - 'kill'
+      - 'tc'
+      - 'dl'
+      - 'zm'
+      - 'settings'
+      - 'tps'
+      - 'tags'
+      - 'wiki'
+      - 'fz'
+      - 'serverinfo'
+      - 'si'
+      - '514'
+      - '4'
+      - '114514'
+      - 'delay'
+      - 'help'
+      - 'ignore'
+      - 'cn2b2tessentials:plugins'
+      - 'stat'
+      - 'stats'
+      - 'suicide'
+      - 'toggle'
+  #命令冷却
+  commandCooldown:
+    #开关
+    enabled: true
+    #列表
+    list:
+      - command: 'fz'
+        time: 60

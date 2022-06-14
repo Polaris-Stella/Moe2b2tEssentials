@@ -1,0 +1,280 @@
+#警告: 非papi表达式中请用%%代替%，避免百分号干扰表达式的解析，程序中会自动替换
+zh_cn:
+  broadcastPrefix: '§7[§bi§7] §r'
+  broadcastMsgs:
+    - '生子当如孙仲谋, 生女当如泉此方!§m娶妻当如桂雏菊, 小姨必须梦梦当!§r'
+    - '新的一年, 祝大家早日打破次元壁, 和你的老婆§m们§r团聚!'
+    - '§m一莲二幽三大八, 幻想乡里六大妈。§r'
+    - 'Polaris_Stella万岁!'
+  noBroadcastMsgs: '§7[§4!§7] §r你开启了自动广播器,但是配置文件里没有消息!'
+  pluginLoaded: '[!] Moe2b2tEssentials 加载成功!插件已加载。'
+  pluginUnloaded: '[!] Moe2b2tEssentials 已卸载!'
+  worldBorderReachedMaximumValue: '世界边界已达到最大值%d格。'
+  worldBorderWillIncrease: '世界边界将在%2$d秒内增加到%1$d。'
+  failedToLoadConfig: '§7[§4!§7] §r无法读取配置文件, 配置文件中有语法错误。'
+  papiNotExists: '§7[§4!§7] §rPlaceholderAPI不存在!请检查那个插件是否被正确安装了。'
+  changeLanguageHint: 'Need English Messages? you can type "/toggle set lang en_us" to change English.'
+  accessDenied: '§7[§4!§7] §r你没有权限去这样做。'
+  needToSpecifyPlayer: '§7[§4!§7] §r在用控制台执行这个命令时你需要指定一名玩家'
+  onlyPlayerCanExecute: '§7[§4!§7] §r此命令只能由玩家执行。'
+  playerNotFound: '§7[§4!§7] §r未找到指定的玩家'
+  chunkUnloaded: '成功卸载了%d个区块。'
+  chunkUnloadedManually: '成功手动卸载了无用的区块。'
+  welcomeMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §7尊敬的 §5§l%s §7, 
+    §7您好, 欢迎来到§d§o§l2b2t.moe§7!
+    §7本服§c无规则、无管理, 无任何官方组织§7。
+    §7本服基于 §5%s §7搭建。
+    §7本服额外添加几个了几个命令, 详细请输入 §5/help §7。
+    §5--§e-§f-----------------------------§e-§5--
+  broadcastNewbieWelcomeMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §e欢迎新玩家 §5%s §e加入游戏
+    §5--§e-§f-----------------------------§e-§5--
+  broadcastWelcomeMsg: '§7玩家 §5%s §7加入了游戏。'
+  playerQuitMsg: '§7玩家 §5%s §7离开了游戏。'
+  playerDeathMsg: '%s'
+  sayTheSameThingMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §f请不要重复说相同的内容。
+    §5--§e-§f-----------------------------§e-§5--
+  speakTooFastMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §f您的说话速度太快, 每次发言请至少等待%d秒。
+    §5--§e-§f-----------------------------§e-§5--
+  helpMsg: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7屏蔽玩家 §5/ignore <ID>
+    §7推迟重启 §5/delay /tc /dl
+    §7不想活了 §5/suicide /4 /514 /114514
+    §7个人设置 §5/settings §7查看详情。
+    §7开关设置 §5/toggle §7查看详情。
+    §7当前TPS §5/tps
+    §7称号仓库 §5/tags
+    §7入门指南 §5/wiki
+    §7玩家统计 §5/stat
+    §7服务统计 §5/stats /serverinfo /si
+    §7刷取物品§f(§6仅对服务器有特殊贡献的玩家§f) §5/fz
+    §7其余更多原版自带指令，不做详解，自行搜索、询问。
+    §5-§e--§8----------------------------§e--§5-
+  cmdCanOnlyExecuteByPlayer: '§7[§4!§7] §r这个命令只能由玩家执行。'
+  moe2b2tCmdUsage: '使用方法: /moe2b2t reload [config,i18n]'
+  reloadedAllCfg: '成功重载全部配置文件。'
+  reloadedI18nCfg: '成功重载本地化配置文件。'
+  reloadedMainCfg: '成功重载主配置文件。'
+  toggleCmdUsage: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7设置语言:
+         §5/toggle set lang <en_us,zh_cn>
+    §7开关死亡消息:
+         §5/toggle set showDeathMessages <true,false>
+    §7开关玩家加入、退出提示信息:
+         §5/toggle set showJoinAndLeaveAlerts <true,false>
+    §7开关自动广播消息:
+         §5/toggle set showBroadcastMessages <true,false>
+    §7若需要查看目前设置, 将set替换为get并且去掉后面的值即可。
+    §5-§e--§8----------------------------§e--§5-
+  toggleAccessDenied: '§7[§4!§7] §r你没有权限去更改其他玩家的个人配置。'
+  optionSaved: '设置已保存'
+  optionValue: '玩家%s的%s选项目前是%s'
+  specifiedOptionsNotExists: '§7[§4!§7] §r指定的选项不存在。'
+  langNotSupported: '服务器语言文件中没有这种语言。'
+  statAccessDenied: '§7[§4!§7] §r你无权查看其他玩家的统计信息'
+  statMsg: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7 该玩家的统计信息: 
+    §7  在线时长:  §5%statistic_time_played:hours% §7小时
+    §7  加入次数: §5%statistic_leave_game%
+    §7  杀敌次数: §5%moe2b2t_kills%
+    §7  死亡次数: §5%moe2b2t_deaths%
+    §5-§e--§8----------------------------§e--§5-
+  suicideMsg: |-
+    §a这个世界虽然不完美, 但我们仍然可以治愈自己。
+    §7全国免费心理咨询热线 §f§l800-810-1117
+  ignoreHelp: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7屏蔽某人消息 §5/ignore §8<§5ID§8>
+    §7注意, 每次屏蔽退出服务器后即失效, 若需要请再次屏蔽。
+    §5-§e--§8----------------------------§e--§5-
+  successfullyIgnored: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7已成功屏蔽 §2%s §7 !
+    §7注意, 本次屏蔽退出服务器后即失效, 若需要请再次屏蔽。
+    §5-§e--§8----------------------------§e--§5-
+  ignoredOfflinePlayer: '§7您所想屏蔽的玩家并不在线!'
+  ignoredOneself: '§7您无法屏蔽您自己!'
+  statsMsg: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7 截至目前已经有 §6%moe2b2t_playernum%  §7个玩家到访过本服务器
+    §7 自 §62022-4-17 §7起服务器存档大小已达到了 §6%moe2b2t_mapsize%
+    §7 服务器信息: 
+    §7  生物数量: §5%moe2b2t_mobs%
+    §7  世界边界: §5%moe2b2t_border%
+    §7  创生时长: §5%moe2b2t_days%天
+    §7  在线人数: §5%moe2b2t_online_amount%
+    §7  当前TPS: §5%moe2b2t_tps%
+    §7  下次重启: §5%moe2b2t_next_restart%
+    §5-§e--§8----------------------------§e--§5-
+  consoleRequestedPlayerOnlyPapi: '§7[§4!§7] §r你请求了一个需要获取玩家信息的PAPI, 但是你是使用控制台运行的此命令, 所以我无法解析。'
+  spawnProtectionTriggered: '§7[§4!§7] §r你不能在距离出生点%d格内进行操作。'
+  blockDangerous: '§e警告: §r出生点的方块会伤害玩家!'
+  AntiBookBanTriggered: '§7[§4!§7] §r服务器规定书与笔内容不得超过%d页, 在此数后的页面已被删除!'
+  serverRestart: '§7[§4!§7] §r服务器将在%d秒后重启!'
+  delayedByPlayer: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7服务器重启事项已被玩家 §e%s §7推迟10分钟.
+    §5-§e--§8----------------------------§e--§5-
+  delayedByConsole: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7服务器重启事项已被控制台推迟一小时。
+    §5-§e--§8----------------------------§e--§5-
+  delayRejected: '§4[!]服务器重启事项已经被玩家延迟过了'
+  cmdProcessRejected: '未知命令，请输入/help获取帮助。'
+  cmdCoolingDown: '§7[§4!§7] §r命令正在冷却, 你还有%d秒才能使用此命令。'
+  pluginsMessage: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §e插件列表: %s
+    §5--§e-§f-----------------------------§e-§5--
+  bedOrAnchorUnavailable: '由于您之前的床或已充能的重生锚已被破坏或遮挡, 所以无法将您传送到您的床或重生锚旁边。'
+  InvincibleEffectApplied: '§e你复活了并获得了%d秒无敌时间。'
+en_us:
+  broadcastPrefix: '§7[§bi§7] §r'
+  broadcastMsgs:
+    - 'Having a son should be like Sun Zhongmou, having a daughter should be like Izumi Konata!§mMarrying a wife should be like Katsura Hinagiku, and aunt must be Momo Belia Deviluke!§r'
+    - 'In the new year, I wish you all to break the dimensional wall as soon as possible and reunite with your waifu§ms§r!'
+    - '§mOne Byakuren, two Yu, three Ya, six aunts in Gensokyo.§r'
+    - 'All hail Polaris_Stella!'
+  noBroadcastMsgs: '§7[§4!§7] §rYou enabled auto broadcaster, but there is not any messages in config file!'
+  pluginLoaded: 'Plugin loaded.'
+  pluginUnloaded: 'Plugin unloaded.'
+  worldBorderReachedMaximumValue: 'World border has reached the maximum value %d blocks.'
+  worldBorderWillIncrease: 'World border will increase to %1$d in %2$d seconds.'
+  failedToLoadConfig: '§7[§4!§7] §rConfig load failed! There is a syntax error in the YAML file!'
+  papiDoesNotExists: '§7[§4!§7] §rPlaceholderAPI does not exists! Please check was that plugin installed correctly?'
+  changeLanguageHint: '看不懂? 试试键入 "/toggle set lang zh_cn" 来切换成中文。'
+  accessDenied: '§7[§4!§7] §rYou do not have permission to do that!'
+  needToSpecifyPlayer: '§7[§4!§7] §rYou need to specify a player when execute this command by console.'
+  onlyPlayerCanExecute: '§7[§4!§7] §rThis command can only execute by player.'
+  playerNotFound: '§7[§4!§7] §rSpecified player not found.'
+  chunkUnloaded: 'Successfully unloaded %d chunks.'
+  chunkUnloadedManually: 'Successfully manually unloaded unused chunks.'
+  welcomeMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §7Dear §5§l%s §7, 
+    §7Hello! Welcome to §d§o§l2b2t.moe§7!
+    §7This server does not has §crules、operators and any official organization.§7。
+    §7This server was built based on §5%s.
+    §7Several additional directives have been added to this server, if you want to know more, input §5/help §7。
+    §5--§e-§f-----------------------------§e-§5--
+  broadcastNewbieWelcomeMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §eWelcome new player §5%s §eto the game!
+    §5--§e-§f-----------------------------§e-§5--
+  broadcastWelcomeMsg: '§7Player§e %s §7Joined game.'
+  playerQuitMsg: '§7Player §e%s §7left the game.'
+  playerDeathMsg: '%s'
+  sayTheSameThingMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §fPlease don't say the same thing.
+    §5--§e-§f-----------------------------§e-§5--
+  speakTooFastMsg: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §fYour speak speed is too fast!
+    Please wait at least %d seconds each time you speak.
+    §5--§e-§f-----------------------------§e-§5--
+  helpMsg: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7View server version §5/version
+    §7Ignore player §5/ignore <ID>
+    §7Delay restart §5/delay
+    §7Want to suicide §5/suicide
+    §7Personal settings §5/settings §7View Details。
+    §7Toggle settings §5/toggle §7View Details。
+    §7View TPS §5/tps
+    §7Ranks §5/tags
+    §7Wikipedia §5/wiki
+    §7Player Stats §5/stat
+    §7Server Stats §5/stats
+    §7DupeItems(only special contributions player) §5/fz
+    §7For more vanilla commands, not explained in detail here. Please search or ask others by yourself.
+    §5-§e--§8----------------------------§e--§5-
+  moe2b2tCmdUsage: 'Usage: /moe2b2t reload [config,i18n]'
+  reloadedAllCfg: 'Successfully reloaded all config files.'
+  reloadedI18nCfg: 'Successfully reloaded I18N config.'
+  reloadedMainCfg: 'Successfully reloaded main config.'
+  toggleCmdUsage: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7Set language:
+         §5/toggle set lang <en_us,zh_cn>
+    §7Set whether to show death messages:
+         §5/toggle set showDeathMessages <true,false>
+    §7Set whether to show join and leave alerts:
+         §5/toggle set showJoinAndLeaveAlerts <true,false>
+    §7Set whether to show auto broadcast messages:
+         §5/toggle set showBroadcastMessages <true,false>
+    §7If you need to chech current config,
+    §7replace set to get and remove value after command
+    §5-§e--§8----------------------------§e--§5-
+  toggleAccessDenied: 'You do not have permission to change other player''s profile.'
+  optionSaved: 'Option saved'
+  optionValue: 'Player %s''s %s option is %s'
+  specifiedOptionNotExists: '§7[§4!§7] §rSpecified Option does not exits.'
+  langNotSupported: 'This kind of language is not exists in server language file.'
+  statAccessDenied: '§7[§4!§7] §rYou do not have permission to view statistics of other players'
+  statMsg: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7 Statistics info: 
+    §7  Played time:  §5%statistic_time_played:hours% §7hours
+    §7  Kills: §5%moe2b2t_kills%
+    §7  Deaths: §5%moe2b2t_deaths%
+    §5-§e--§8----------------------------§e--§5-
+  suicideMsg: |-
+    §aAlthough this world is not perfect, but we still can heal ourselves.
+    §7Nationwide free psychological consultation hotline §f§l+86 800-810-1117
+  ignoreHelp: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7Ignore somebody's message §5/ignore §8<§5ID§8>
+    §7Note that the Ignoring will be invalid after exiting the server each time. If necessary, please ignore again.
+    §5-§e--§8----------------------------§e--§5-
+  successfullyIgnored: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7Successfully ignored §2%s §7 !
+    §7Note that the Ignoring will be invalid after exiting the server each time. If necessary, please ignore again.
+    §5-§e--§8----------------------------§e--§5-
+  ignoredOfflinePlayer: '§7The player who you want to ignore is offline!'
+  ignoredOneself: '§7you can''t ignore yourself'
+  statsMsg: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7 There is §6%moe2b2t_playernum%  §7players visited this server.
+    §7 Since §62022-06-09 §7, Server save files' size reached §6%moe2b2t_mapsize%
+    §7 Server info: 
+    §7  Mobs amount: §5%moe2b2t_mobs%
+    §7  World border: §5%moe2b2t_border%
+    §7  Creation time: §5%moe2b2t_days% Day(s)
+    §7  Online amount: §5%moe2b2t_online_amount%
+    §7  Current TPS: §5%moe2b2t_tps%
+    §7  Next restart: §5%moe2b2t_next_restart%
+    §5-§e--§8----------------------------§e--§5-
+  consoleRequestedPlayerOnlyPapi: '§7[§4!§7] §rYou have requested a PAPI which needs to get player info.But you executed this command by console.So I can not show msg to you.'
+  spawnProtectionTriggered: '§7[§4!§7] §rYou cannot operate within %d blocks of the spawn point.'
+  blockDangerous: '§eWarning: §rThe block in spawn point will hurt player!'
+  AntiBookBanTriggered: '§7[§4!§7] §rServer stipulates that the content of the book and quill should not reached %d pages, and the pages after this number have been deleted!'
+  serverRestart: '§7[§4!§7] §rServer will restart after %d seconds!'
+  delayedByPlayer: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7Server restart event has been delayed 10 minutes by §e%s §7.
+    §5-§e--§8----------------------------§e--§5-
+  delayedByConsole: |-
+    §5-§e--§8----------------------------§e--§5-
+    §7Server restart event has been delayed 1 hour by console.
+    §5-§e--§8----------------------------§e--§5-
+  delayRejected: '§7[§4!§7] §rServer restart event has been delayed before.'
+  cmdProcessRejected: '§7[§4!§7] §rCommand is not in the whitelist!.'
+  cmdCoolingDown: '§7[§4!§7] §rCommand is cooling down! You can process this command after %d seconds.'
+  pluginsMessage: |-
+    §5--§e-§f-----------------------------§e-§5--
+    §ePlugins: %s
+    §5--§e-§f-----------------------------§e-§5--
+  bedOrAnchorUnavailable: 'Your bed or respawn anchor is destroyed or blocked. So I can''t teleport you there.'
+  InvincibleEffectApplied: '§eYou have respawned and gain %d seconds of invincibility.'
