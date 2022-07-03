@@ -27,3 +27,6 @@ commands:
     aliases: [ fz ]
     permission: "moe2b2t.copy"
     default: op
+  fly:
+    permission: "moe2b2t.fly"
+    default: op

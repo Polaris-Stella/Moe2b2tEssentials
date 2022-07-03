@@ -52,6 +52,7 @@ public final class Moe2b2tEssentials extends JavaPlugin
         pluginManager.addPermission(new Permission("moe2b2t.spawnprotection.bypass"));
         pluginManager.addPermission(new Permission("moe2b2t.commandwhitelist.bypass"));
         pluginManager.addPermission(new Permission("moe2b2t.commandcooldown.bypass"));
+        pluginManager.addPermission(new Permission("moe2b2t.fly"));
     }
 
     private void regListeners()
@@ -87,6 +88,7 @@ public final class Moe2b2tEssentials extends JavaPlugin
         Objects.requireNonNull(getCommand("delay")).setExecutor(Delay.getInstance());
         Objects.requireNonNull(getCommand("copy")).setExecutor(Copy.getInstance());
         Objects.requireNonNull(getCommand("plugins")).setExecutor(Plugins.getInstance());
+        Objects.requireNonNull(getCommand("fly")).setExecutor(Fly.getInstance());
     }
 
     public static boolean isPapiExists()
