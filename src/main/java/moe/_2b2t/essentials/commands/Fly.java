@@ -20,7 +20,6 @@ public class Fly implements CommandExecutor
     {
         return instance;
     }
-
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args)
     {
@@ -36,7 +35,7 @@ public class Fly implements CommandExecutor
                 } else
                 {
                     player.setAllowFlight(true);
-                    player.setFlySpeed(2.0f);
+                    player.setFlySpeed(0.1f);
                     player.sendMessage(MoeI18n.format(player, "flyEnabled"));
                 }
             } else

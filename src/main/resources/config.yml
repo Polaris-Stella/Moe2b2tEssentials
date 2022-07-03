@@ -226,6 +226,7 @@ CommandManager:
       - 'stats'
       - 'suicide'
       - 'toggle'
+      - 'fly'
   #命令冷却
   commandCooldown:
     #开关
